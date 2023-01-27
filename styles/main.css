@@ -96,6 +96,17 @@ a {
     line-height: 1.75rem;
 }
 
+.btn {
+    padding: 1em 3em;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 2.625em;
+}
+
+.btn:hover {
+    background-color: #fde4a6;;
+}
+
 /*
     Color Palette
  */
@@ -124,3 +135,5 @@ a {
 .col_tint_blue {color: #1c1e53;}
 
 .col_accent {color: #eef4fa;}
+
+.col_dark {color: #1b1c2b;}

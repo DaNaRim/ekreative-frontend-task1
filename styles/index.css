@@ -1,0 +1,30 @@
+.extended_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8em 10em;
+    color: white;
+}
+
+.extended_header .extended_header_text p {
+    margin-top: 1.5em;
+}
+
+.extended_header .extended_header_buttons_wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    white-space: nowrap;
+    gap: 2.5em;
+}
+
+.arrow_link::after {
+    position: absolute;
+    margin-left: 0.5em;
+    content: "\2192";
+    transition: transform 0.3s ease-in-out;
+}
+
+.arrow_link:hover::after {
+    transform: translateX(0.5em);
+}
