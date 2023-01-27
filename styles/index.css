@@ -6,11 +6,11 @@
     color: white;
 }
 
-.extended_header .extended_header_text p {
+.extended_header .main_text p {
     margin-top: 1.5em;
 }
 
-.extended_header .extended_header_buttons_wrapper {
+.extended_header .buttons_wrapper {
     display: flex;
     align-items: center;
     margin-top: 3em;
@@ -27,4 +27,72 @@
 
 .arrow_link:hover::after {
     transform: translateX(0.5em);
+}
+
+/*
+how_we_work
+ */
+
+.how_we_work {
+    display: flex;
+    justify-content: space-between;
+    padding: 8em 10em;
+}
+
+.how_we_work > * {
+    max-width: 45%;
+}
+
+.how_we_work .how_we_work_text :is(p, a) {
+    display: block;
+    margin-top: 1em;
+}
+
+.how_we_work .cards_wrapper {
+    display: grid;
+    margin-top: 3em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2.5em 1.5em;
+}
+
+.how_we_work .work_card > *:not(:first-child) {
+    margin-top: 1em;
+}
+
+.how_we_work .card_icon {
+    position: relative;
+    overflow: hidden;
+    width: 3.125em;
+    height: 3.125em;
+    border-radius: 0.5em;
+    background-color: #2405f2;
+}
+
+.how_we_work .card_icon > .icon_part1 {
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+    width: 3.125em;
+    height: 3.125em;
+    border-radius: 0.5em;
+    background-color: #fcd980;
+}
+
+.how_we_work .card_icon > .icon_part2 {
+    position: absolute;
+    top: -0.55em;
+    right: -0.55em;
+    width: 3.125em;
+    height: 3.125em;
+    border-radius: 0.5em;
+    background-color: #5239fa;
+}
+
+.how_we_work .card_icon > .icon_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
