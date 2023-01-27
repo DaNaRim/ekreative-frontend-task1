@@ -3,7 +3,7 @@
 }
 
 .main_footer main {
-    padding: 96px 160px 0 160px;
+    padding: 6em 10em 0 10em;
 }
 
 .main_footer main .footer_top_wrapper {
@@ -16,29 +16,29 @@
 }
 
 .main_footer .footer_logo {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .main_footer .footer_about p {
-    margin-top: 16px;
+    margin-top: 1em;
     opacity: 0.8;
 }
 
 .main_footer .footer_lets_talk {
-    margin-left: 140px;
+    margin-left: 8.75em;
 }
 
 .main_footer .footer_lets_talk > p {
-    margin-top: 16px;
+    margin-top: 1em;
     opacity: 0.8;
 }
 
 .main_footer .socials {
-    margin-top: 30px;
+    margin-top: 1.875em;
 }
 
 .main_footer .socials a:not(:first-child) {
-    margin-left: 25px;
+    margin-left: 1.625em;
 }
 
 .main_footer .socials a i {
@@ -49,12 +49,12 @@
     display: flex;
     width: 35%;
     min-width: fit-content;
-    padding: 18px 35px;
+    padding: 1.125em 2.25em;
     white-space: nowrap;
 }
 
 .main_footer .contacts > div:not(:first-child) {
-    margin-left: 30px;
+    margin-left: 1.875em;
 }
 
 .main_footer .contacts > div a {
@@ -69,7 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 160px;
+    padding: 1.875em 10em;
 }
 
 .main_footer footer nav ul {
@@ -78,5 +78,5 @@
 }
 
 .main_footer nav ul li:not(:first-child) {
-    margin-left: 32px;
+    margin-left: 2em;
 }

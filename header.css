@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 160px;
+    padding: 1em 10em;
 }
 
 .main_header .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .main_header nav ul li {
-    margin-left: 32px;
+    margin-left: 2em;
     white-space: nowrap;
 }
 
@@ -39,11 +39,11 @@
 }
 
 .main_header nav .contact_us {
-    margin-left: 48px;
-    padding: 16px 48px;
+    margin-left: 3em;
+    padding: 1em 3em;
     white-space: nowrap;
     text-decoration: none;
     color: white;
     border: 2px solid rgba(244, 246, 252, 0.2);
-    border-radius: 41px;
+    border-radius: 2.625em;
 }
