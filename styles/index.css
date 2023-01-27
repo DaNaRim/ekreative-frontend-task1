@@ -18,6 +18,10 @@
     gap: 2.5em;
 }
 
+.extended_header > img {
+    margin-left: 8em;
+}
+
 .arrow_link::after {
     position: absolute;
     margin-left: 0.5em;
