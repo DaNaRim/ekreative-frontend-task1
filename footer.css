@@ -1,0 +1,82 @@
+.main_footer {
+    width: 100%;
+}
+
+.main_footer main {
+    padding: 96px 160px 0 160px;
+}
+
+.main_footer main .footer_top_wrapper {
+    display: flex;
+    color: white;
+}
+
+.main_footer .footer_about {
+    min-width: 40%;
+}
+
+.main_footer .footer_logo {
+    font-size: 30px;
+}
+
+.main_footer .footer_about p {
+    margin-top: 16px;
+    opacity: 0.8;
+}
+
+.main_footer .footer_lets_talk {
+    margin-left: 140px;
+}
+
+.main_footer .footer_lets_talk > p {
+    margin-top: 16px;
+    opacity: 0.8;
+}
+
+.main_footer .socials {
+    margin-top: 30px;
+}
+
+.main_footer .socials a:not(:first-child) {
+    margin-left: 25px;
+}
+
+.main_footer .socials a i {
+    color: white;
+}
+
+.main_footer .contacts {
+    display: flex;
+    width: 35%;
+    min-width: fit-content;
+    padding: 18px 35px;
+    white-space: nowrap;
+}
+
+.main_footer .contacts > div:not(:first-child) {
+    margin-left: 30px;
+}
+
+.main_footer .contacts > div a {
+    opacity: 0.8;
+}
+
+.main_footer .contacts > div a:hover {
+    text-decoration: underline;
+}
+
+.main_footer footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 160px;
+}
+
+.main_footer footer nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main_footer nav ul li:not(:first-child) {
+    margin-left: 32px;
+}
