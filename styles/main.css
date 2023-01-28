@@ -103,8 +103,8 @@ a {
     border-radius: 2.625em;
 }
 
-.btn:hover {
-    background-color: #fde4a6;;
+.btn.bgc_yellow:hover {
+    background-color: #fde4a6;
 }
 
 /*

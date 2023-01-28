@@ -18,9 +18,17 @@
     gap: 2.5em;
 }
 
+.extended_header .buttons_wrapper a {
+    transition: background-color 0.3s ease-in-out;
+}
+
 .extended_header > img {
     margin-left: 8em;
 }
+
+/*
+    arrow_link
+ */
 
 .arrow_link::after {
     position: absolute;
@@ -53,6 +61,10 @@ how_we_work
     margin-top: 1em;
 }
 
+.how_we_work .how_we_work_text p {
+    opacity: 0.7;
+}
+
 .how_we_work .cards_wrapper {
     display: grid;
     margin-top: 3em;
@@ -61,8 +73,13 @@ how_we_work
     grid-gap: 2.5em 1.5em;
 }
 
-.how_we_work .work_card > *:not(:first-child) {
-    margin-top: 1em;
+.how_we_work .work_card > h5 {
+    margin-top: 0.5em;
+}
+
+.how_we_work .work_card > p {
+    margin-top: 0.5em;
+    opacity: 0.7;
 }
 
 .how_we_work .card_icon {
@@ -101,6 +118,10 @@ how_we_work
     transform: translate(-50%, -50%);
     color: white;
 }
+
+/*
+    projects
+ */
 
 .projects {
     padding: 8em 10em;
@@ -145,23 +166,23 @@ how_we_work
     padding: 19.5em 2em 0;
 }
 
-.image_desc_1 p {
+.projects .image_desc_1 p {
     margin-top: 1em;
     opacity: 0.8;
 }
 
-.image_desc_1 a {
+.projects .image_desc_1 a {
     display: block;
     margin-top: 2.5em;
 }
 
-.image_desc_2 {
+.projects .image_desc_2 {
     box-sizing: border-box;
     width: 100%;
     padding: 6em 3.5em 0;
 }
 
-.image_desc_2 a {
+.projects .image_desc_2 a {
     display: block;
     margin-top: 1em;
 }
@@ -186,6 +207,9 @@ how_we_work
     grid-area: 2 / 2 / 3 / 3;
 }
 
+/*
+    features
+ */
 
 .features {
     padding: 8em 10em;
@@ -250,3 +274,86 @@ how_we_work
 .features .card:nth-child(8) { grid-area: 3 / 2 / 4 / 3; }
 
 .features .card:nth-child(9) { grid-area: 3 / 3 / 4 / 4; }
+
+/*
+    reviews
+ */
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    padding: 8em 10em;
+    background-color: rgb(244, 246, 252, 0.5); /* #f4f6fc; */
+}
+
+.reviews .left_side {
+    width: 20em;
+}
+
+.reviews .left_side p {
+    margin-top: 1em;
+    opacity: 0.7;
+}
+
+.reviews .right_side {
+    position: relative;
+    width: 45em;
+    margin-left: 6.8em;
+}
+
+.reviews .author {
+    display: flex;
+    margin-top: 3em;
+}
+
+.reviews .author img {
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+}
+
+.reviews .author_wrapper {
+    margin-left: 1em;
+}
+
+.reviews .author_wrapper :not(:first-child) {
+    font-size: 0.75rem;
+}
+
+.reviews .controls {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.reviews .controls > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.6em; /* width: 3em display as 40px. I dont know why*/
+    height: 3.6em;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 100%;
+}
+
+.reviews .controls i {
+    font-size: 1.375rem;
+    display: inline-block;
+}
+
+.reviews .controls .left_arrow {
+    opacity: 0.6;
+    background: transparent;
+}
+
+.reviews .controls .right_arrow {
+    margin-left: 0.5em;
+    background-color: #5239fa;
+}
+
+.reviews .controls .right_arrow i {
+    color: white;
+}
