@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:wght@500;600&display=swap');
 
 * {
     font-family: "Poppins", serif;
@@ -100,6 +100,7 @@ a {
     padding: 1em 3em;
     white-space: nowrap;
     text-decoration: none;
+    border: unset;
     border-radius: 2.625em;
 }
 
