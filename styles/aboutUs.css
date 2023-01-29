@@ -110,3 +110,41 @@
     margin-top: 0.5em;
     opacity: 0.7;
 }
+
+/*
+    Our mission and vision
+ */
+
+.mission_and_vision {
+    padding: 8em 10em;
+    background-color: #eef4fa;
+}
+
+.mission_and_vision article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mission_and_vision article:not(:first-child) {
+    margin-top: 6em;
+}
+
+.mission_and_vision article .text_wrapper {
+    width: 40%;
+}
+
+.mission_and_vision article .text_wrapper h3 {
+    margin-top: 0.2em;
+}
+
+.mission_and_vision article .text_wrapper .body1 {
+    margin-top: 1em;
+    opacity: 0.7;
+}
+
+.mission_and_vision article img {
+    width: 32em;
+    height: 21em;
+    object-fit: cover;
+}
