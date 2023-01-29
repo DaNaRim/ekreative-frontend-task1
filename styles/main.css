@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
 }
 
-main.main_content {
+main#main_content {
     flex: 1;
 }
 

@@ -80,3 +80,11 @@
 .main_footer nav ul li:not(:first-child) {
     margin-left: 2em;
 }
+
+.main_footer nav ul li.nav_current {
+    font-weight: 800;
+}
+
+.main_footer nav ul li:not(.nav_current):hover {
+    text-decoration: underline;
+}

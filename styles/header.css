@@ -34,7 +34,7 @@
     text-decoration: underline;
 }
 
-.main_header nav ul li.nav_current a {
+.main_header nav ul li.nav_current {
     color: white;
 }
 
