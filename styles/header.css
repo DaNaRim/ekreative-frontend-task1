@@ -30,12 +30,12 @@
     color: #bbbbcb;
 }
 
-.main_header nav ul li:not(.nav_current) a:hover {
-    text-decoration: underline;
+.main_header nav ul li.nav_current a {
+    color: white;
 }
 
-.main_header nav ul li.nav_current {
-    color: white;
+.main_header nav ul li:not(.nav_current) a:hover {
+    text-decoration: underline;
 }
 
 .main_header nav .contact_us {
