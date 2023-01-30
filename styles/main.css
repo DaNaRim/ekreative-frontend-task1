@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:wght@500;600;700&display=swap");
 
 * {
     font-family: "Poppins", serif;
@@ -102,10 +102,19 @@ a {
     text-decoration: none;
     border: unset;
     border-radius: 2.625em;
+    cursor: pointer;
 }
 
 .btn.bgc_yellow:hover {
     background-color: #fde4a6;
+}
+
+.btn.bgc_dark_blue {
+    color: white;
+}
+
+.btn.bgc_dark_blue:hover {
+    background-color: #535460;
 }
 
 /*
