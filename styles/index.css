@@ -221,10 +221,6 @@ how_we_work
     text-align: center;
 }
 
-.features > :is(h2, p) {
-    /* text-align: center; */
-}
-
 .features > h2 {
     display: inline-block;
     width: 15em;
