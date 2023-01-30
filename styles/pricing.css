@@ -44,7 +44,8 @@
     width: 72em;
     height: 72em;
     border-radius: 100%;
-    background: linear-gradient(to bottom, transparent 50%, rgba(255, 255, 255, 0.06) 50%);
+    background-color: rgba(255, 255, 255, 0.06);
+    clip-path: ellipse(100% 52% at 50% 100%);
 }
 
 .pricing_plans .plan header {
