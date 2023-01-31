@@ -298,8 +298,35 @@ how_we_work
 
 .reviews .right_side {
     position: relative;
+    display: flex;
+    overflow: hidden;
     width: 45em;
+    height: 15em;
     margin-left: 6.8em;
+}
+
+.reviews .review {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    transition: left 0.5s ease, opacity 0.3s ease;
+}
+
+.reviews .review.left_review {
+    left: -100%;
+    opacity: 0;
+}
+
+.reviews .review.active_review {
+    left: 0;
+}
+
+.reviews .review.right_review {
+    left: 100%;
+    opacity: 0;
 }
 
 .reviews .author {
@@ -328,7 +355,7 @@ how_we_work
     display: flex;
 }
 
-.reviews .controls > * {
+.reviews .controls button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -340,9 +367,14 @@ how_we_work
     border-radius: 100%;
 }
 
-.reviews .controls i {
+.reviews .controls button i {
     font-size: 1.375rem;
     display: inline-block;
+    transition: transform 0.3s ease
+}
+
+.reviews .controls button:hover i {
+    transform: scale(1.2);
 }
 
 .reviews .controls .left_arrow {
