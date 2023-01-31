@@ -1,7 +1,11 @@
 .faq {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     padding: 8em 10em;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
 }
 
 .faq .left_side {
@@ -22,11 +26,15 @@
 }
 
 .faq .question {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     width: 45em;
     height: 2em;
     padding: 2em 0 2em 2em;
+    -o-transition: height 0.3s ease;
+    -webkit-transition: height 0.3s ease;
     transition: height 0.3s ease;
 }
 
@@ -56,9 +64,14 @@
 
 .faq .open_sign i {
     font-size: 1rem;
+    -o-transition: transform 0.3s ease;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
 }
 
 .faq .question.open_answer .open_sign i {
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
 }

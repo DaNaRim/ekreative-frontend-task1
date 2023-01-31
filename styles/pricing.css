@@ -11,20 +11,29 @@
 }
 
 .pricing_plans .plans_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     height: 46em;
     margin-top: 4em;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     gap: 2em;
 }
 
 .pricing_plans .plan {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
     padding: 4em 3em;
     border-radius: 0.75em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
 }
 
 .pricing_plans .plan:not(.bgc_grey) {
@@ -45,20 +54,30 @@
     height: 72em;
     border-radius: 100%;
     background-color: rgba(255, 255, 255, 0.06);
+    -webkit-clip-path: ellipse(100% 52% at 50% 100%);
     clip-path: ellipse(100% 52% at 50% 100%);
 }
 
 .pricing_plans .plan header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     gap: 1em;
 }
 
 .pricing_plans .plan main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 100%;
     text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
 }
 
 .pricing_plans .plan main .desc {
@@ -75,12 +94,18 @@
 }
 
 .pricing_plans .plan:not(.bgc_grey) main ul {
+    -ms-transform: translateY(-1em);
+    -webkit-transform: translateY(-1em);
     transform: translateY(-1em);
 }
 
 .pricing_plans .plan main li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     gap: 0.75em;
 }
 
@@ -88,10 +113,12 @@
     width: 1.4em;
     min-width: 1.4em;
     height: 1.625em;
+    -o-object-fit: contain;
     object-fit: contain;
 }
 
 .pricing_plans .plan main li.not_active img {
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 

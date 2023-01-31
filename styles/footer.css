@@ -7,6 +7,8 @@
 }
 
 .main_footer main .top_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: white;
 }
@@ -46,8 +48,12 @@
 }
 
 .main_footer .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 35%;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
     min-width: fit-content;
     padding: 1.125em 2.25em;
     white-space: nowrap;
@@ -66,13 +72,21 @@
 }
 
 .main_footer footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.875em 10em;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
 }
 
 .main_footer footer nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
 }
